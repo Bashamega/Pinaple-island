@@ -6,11 +6,9 @@ export function SlideshowSection() {
             <div className="font-playfair">
                 <h1 className="text-4xl hidden lg:block">
                     Pineapple Island:
-                </h1>
-                <h1 className="text-4xl hidden lg:block">
+                    <br/>
                     GenZ and Millenial
-                </h1>
-                <h1 className="text-4xl lg:hidden block">
+                    <br/>
                     Pineapple Island: GenZ and Millenial
                 </h1>
                 <h1 className="text-4xl">
