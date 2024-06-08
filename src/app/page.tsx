@@ -6,6 +6,7 @@ import { Offers } from "@/components/offers";
 import { Gal } from "@/components/Gal";
 import { Features } from "@/components/features";
 import Join from "@/components/join";
+import { Contact } from "@/components/Contact";
 export default function App(){
   return(
     <main>
@@ -17,6 +18,7 @@ export default function App(){
       <Gal/>
       <Features/>
       <Join/>
+      <Contact/>
     </main>
   )
 }
