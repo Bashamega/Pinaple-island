@@ -9,13 +9,13 @@ export function Footer() {
           to live and an opportunity to build a home.
         </p>
       </div>
-      <div className="w-1/4 ml-[150px] hidden lg:block">
+      <div className="min-w-1/4 ml-[150px] hidden lg:block">
         <h1 className="text-lg font-playfair text-white">Follow up</h1>
-        <p className="text-white">
+        <p className="text-white w-3/4">
           Keep up with our newsletter to get updates about projects and offers
         </p>
         <form className="bg-white flex">
-          <input type="email" placeholder="Email" className="w-full p-2" />
+          <input type="email" placeholder="Email" className="w-3/4 p-2" />
           <button className="text-[#0E204E] hover:bg-[#000] w-1/4 p-2  border-white hover:text-white transition-colors duration-75">
             Subscribe
           </button>

@@ -36,7 +36,7 @@ export function Contact() {
 
         <div className="flex justify-center">
           <button className="hover:bg-opacity-80   transition-colors duration-75 bg-[#0E204E] text-white font-manrope text-[20px] w-[188px] h-[50px]   cursor-pointer">
-            Submit
+            Send
           </button>
         </div>
       </form>
