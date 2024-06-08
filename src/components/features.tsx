@@ -3,7 +3,7 @@ import React from "react";
 
 export function Features() {
     return (
-        <section className=" my-20  mt-[500px] lg:mt-20 lg:px-[200px] px-[2%] flex  items-center">
+        <section className=" my-20  hidden lg:mt-20 lg:px-[200px] px-[2%] lg:flex  items-center">
             <div className="w-1/2 flex items-center">
                 <Image src={'/img/table.png'} width={300} height={0} alt="Table" className="w-[300px] h-[400px]"></Image>
                 <div className=" bg-[#0E204E] block w-[100px] h-[180px]" />
