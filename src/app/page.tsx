@@ -7,6 +7,7 @@ import { Gal } from "@/components/Gal";
 import { Features } from "@/components/features";
 import Join from "@/components/join";
 import { Contact } from "@/components/Contact";
+import { Footer } from "@/components/Footer";
 export default function App(){
   return(
     <main>
@@ -19,6 +20,7 @@ export default function App(){
       <Features/>
       <Join/>
       <Contact/>
+      <Footer/>
     </main>
   )
 }
