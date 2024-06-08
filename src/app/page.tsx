@@ -8,19 +8,19 @@ import { Features } from "@/components/features";
 import Join from "@/components/join";
 import { Contact } from "@/components/Contact";
 import { Footer } from "@/components/Footer";
-export default function App(){
-  return(
+export default function App() {
+  return (
     <main>
-      <Nav/>
-      <Hero/>
-      <SlideshowSection/>
-      <WhyUs/>
-      <Offers/>
-      <Gal/>
-      <Features/>
-      <Join/>
-      <Contact/>
-      <Footer/>
+      <Nav />
+      <Hero />
+      <SlideshowSection />
+      <WhyUs />
+      <Offers />
+      <Gal />
+      <Features />
+      <Join />
+      <Contact />
+      <Footer />
     </main>
-  )
+  );
 }
