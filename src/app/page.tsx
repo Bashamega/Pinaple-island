@@ -3,7 +3,8 @@ import { Nav } from "@/components/Nav";
 import { SlideshowSection } from "@/components/SlideshowSection";
 import { WhyUs } from "@/components/Whyus";
 import { Offers } from "@/components/offers";
-
+import { Gal } from "@/components/Gal";
+import { Features } from "@/components/features";
 export default function App(){
   return(
     <main>
@@ -12,6 +13,8 @@ export default function App(){
       <SlideshowSection/>
       <WhyUs/>
       <Offers/>
+      <Gal/>
+      <Features/>
     </main>
   )
 }
