@@ -31,7 +31,7 @@ export function Gal() {
                     ) : (<></>)
                 ))}
             </div>
-            <Image src={'/img/gal/mobile/13.png'} width={500} height={0} className="w-full mt-2" alt="house"/>
+            <Image src={'/img/gal/mobile/13.png'} width={500} height={0} className="w-full mt-2 lg:hidden block" alt="house"/>
 
         </section>
     )
