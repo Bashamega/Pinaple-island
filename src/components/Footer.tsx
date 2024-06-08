@@ -1,7 +1,7 @@
 import React from "react";
 export function Footer() {
   return (
-    <footer className="lg:bg-[url('/img/footer.png')] bg-[#0E204E] w-full bg-cover lg:h-[500px] flex justify-center font-manrope lg:p-16 items-center">
+    <footer className="lg:bg-[url('/img/footer.png')] bg-[#0E204E] lg:bg-transparent w-full bg-cover lg:h-[500px] flex justify-center font-manrope lg:p-16 items-center">
       <div className="w-1/4 hidden lg:block">
         <h1 className="text-3xl text-white">Banana Island</h1>
         <p className="text-white">
