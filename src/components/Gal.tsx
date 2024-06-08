@@ -11,13 +11,13 @@ export function Gal() {
         
             <div className="lg:grid grid-cols-3 gap-2 w-full hidden ">
                 {Array.from({ length: 9 }, (_, index) => (
-                    <Image width={500} height={0} className="w-[500px]" src={`/img/gal/${index +1}.png`} alt={`Image ${index+1}`} />
+                    <Image key={index +1} width={500} height={0} className="w-[500px]" src={`/img/gal/${index +1}.png`} alt={`Image ${index+1}`} />
                 ))}
             </div>
             <div className="grid grid-cols-2 gap-2 w-full lg:hidden ">
                 {Array.from({ length: 13 }, (_, index) => (
                     index === 4 ? (
-                        <div className=" grid gap-2">
+                        <div className=" grid gap-2" key={index+1}>
                             <Image width={500} height={0} className="w-[500px]" src={`/img/gal/mobile/${index + 1}.png`} alt={`Image ${index+1}`} />
                             <Image width={500} height={0} className="w-[500px]" src={`/img/gal/mobile/${index + 3}.png`} alt={`Image ${index+1}`} />
                         </div>
