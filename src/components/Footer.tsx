@@ -1,7 +1,7 @@
 import React from "react";
 export function Footer() {
   return (
-    <footer className="lg:bg-[url('/img/footer.png')] bg-[#0E204E] lg:bg-transparent w-full bg-cover lg:h-[500px] flex justify-center font-manrope lg:p-16 items-center">
+    <footer className="lg:bg-[url('/img/footer.png')] flex justify-evenly bg-[#0E204E] lg:bg-transparent w-full bg-cover lg:h-[500px]  font-manrope lg:p-16 items-center">
       <div className="w-1/4 hidden lg:block">
         <h2 className="text-3xl text-white">Banana Island</h2>
         <p className="text-white">
@@ -9,7 +9,7 @@ export function Footer() {
           to live and an opportunity to build a home.
         </p>
       </div>
-      <div className="min-w-1/4 ml-[150px] hidden lg:block">
+      <div className="min-w-1/4 hidden lg:block">
         <h2 className="text-lg font-playfair text-white">Follow up</h2>
         <p className="text-white w-3/4">
           Keep up with our newsletter to get updates about projects and offers
