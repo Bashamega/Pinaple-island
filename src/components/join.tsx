@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Link from "next/link";
+import { Button } from "./ui/button";
 export default function Join() {
   return (
     <section
@@ -17,12 +18,9 @@ export default function Join() {
           a community that gives you a taste of happiness, a place you’ll love
           to live and an opportunity to build a home.
         </p>
-        <Link
-          href={"#"}
-          className="hover:bg-opacity-80 rounded lg:rounded-none   transition-colors duration-75 lg:text-white text-[#0E204E] bg-white lg:bg-[#0E204E]  font-manrope w-[188px] h-[50px] flex justify-center items-center cursor-pointer"
-        >
-          Join Now
-        </Link>
+        <Button variant={"ocean"}>
+          Get in Touch
+        </Button>
       </div>
       <div className="lg:flex items-center hidden">
         <div className=" bg-[#0E204E] block w-[100px] h-[200px]" />
