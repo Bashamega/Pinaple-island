@@ -39,16 +39,8 @@ export function Offers() {
           </div>
         </div>
       </div>
-      <div className="lg:flex items-center hidden" dir="rtl">
-        <Image
-          src={"/img/Rectangle 20.png"}
-          width={200}
-          height={0}
-          alt="Photo"
-          className="w-[270px] h-[280px]"
-        />
-        <div className=" bg-[#0E204E] w-[100px] h-[180px] block" />
-        <div className=" ml-[20%] flex justify-evenly w-full">
+      <div className="lg:flex items-center hidden">
+      <div className=" ml-[20%] flex justify-evenly w-full">
           <div className=" flex flex-col justify-center items-center">
             <FaRegLightbulb size={50} />
             <span>24/7 Electricitry</span>
@@ -62,6 +54,15 @@ export function Offers() {
             <span>Serviced Apartment</span>
           </div>
         </div>
+        <div className=" bg-[#0E204E] w-[100px] h-[180px] block" />
+        <Image
+          src={"/img/Rectangle 20.png"}
+          width={200}
+          height={0}
+          alt="Photo"
+          className="w-[270px] h-[280px]"
+        />
+        
       </div>
       <div className="lg:hidden block relative">
         <Image

@@ -5,19 +5,8 @@ export default function Join() {
   return (
     <section
       className=" my-20 lg:p-[200px] text-center lg:text-left mt-10 px-[2%] py-[50px] flex justify-evenly items-center lg:bg-transparent bg-[#0E204E]"
-      dir="rtl"
     >
-      <div className="lg:flex items-center hidden">
-        <Image
-          src={"/img/agent.png"}
-          width={400}
-          height={0}
-          alt="Agent"
-          className="w-3/4"
-        />
-        <div className=" bg-[#0E204E] block w-[100px] h-[200px]" />
-      </div>
-      <div dir="ltr" className="lg:w-1/2 lg:block flex items-center flex-col">
+      <div  className="lg:w-1/2 lg:block flex items-center flex-col">
         <h2 className=" font-playfair text-4xl text-white lg:text-[#0E204E] lg:hidden block">
           Become an Agent
         </h2>
@@ -34,6 +23,16 @@ export default function Join() {
         >
           Join Now
         </Link>
+      </div>
+      <div className="lg:flex items-center hidden">
+        <div className=" bg-[#0E204E] block w-[100px] h-[200px]" />
+        <Image
+          src={"/img/agent.png"}
+          width={400}
+          height={0}
+          alt="Agent"
+          className="w-3/4"
+        />
       </div>
     </section>
   );
