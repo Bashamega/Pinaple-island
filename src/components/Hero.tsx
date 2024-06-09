@@ -22,13 +22,13 @@ export function Hero() {
         className="text-center lg:text-left  py-[20px] px-[20px] lg:w-[50%] lg:h-[70%] w-full h-full  font-playfair absolute lg:left-[10%]  lg:top-[10%] text-white top-0 left-0 lg:bg-[#0E204E] lg:block flex flex-col items-center justify-center"
         dir="ltr"
       >
-        <h1 className="text-4xl text-white">
+        <h2 className="text-4xl text-white">
           Pineapple Island:
           <br />
           GenZ and Millenial
           <br />
           Abode
-        </h1>
+        </h2>
         <br />
         <p className="font-manrope  text-white">
           a community that gives you a taste of happiness, a place you’ll love

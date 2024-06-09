@@ -18,12 +18,12 @@ export default function Join() {
         <div className=" bg-[#0E204E] block w-[100px] h-[200px]" />
       </div>
       <div dir="ltr" className="lg:w-1/2 lg:block flex items-center flex-col">
-        <h1 className=" font-playfair text-4xl text-white lg:text-[#0E204E] lg:hidden block">
+        <h2 className=" font-playfair text-4xl text-white lg:text-[#0E204E] lg:hidden block">
           Become an Agent
-        </h1>
-        <h1 className=" font-playfair text-4xl text-white lg:text-[#0E204E] hidden lg:block">
+        </h2>
+        <h2 className=" font-playfair text-4xl text-white lg:text-[#0E204E] hidden lg:block">
           Become an <br /> Agent
-        </h1>
+        </h2>
         <p className="my-5 font-manrope text-white lg:text-[#0E204E]">
           a community that gives you a taste of happiness, a place you’ll love
           to live and an opportunity to build a home.

@@ -12,9 +12,9 @@ import { TbSettingsStar } from "react-icons/tb";
 export function Offers() {
   return (
     <section className=" my-20 lg:px-[200px] mt-[500px] lg:mt-20 px-[2%]">
-      <h1 className="text-2xl font-playfair text-center">
+      <h2 className="text-2xl font-playfair text-center">
         What Pineapple Land Offers
-      </h1>
+      </h2>
       <div className="lg:flex items-center hidden">
         <Image
           src={"/img/Rectangle 7.png"}

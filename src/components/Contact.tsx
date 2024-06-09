@@ -2,9 +2,9 @@ import React from "react";
 export function Contact() {
   return (
     <section className="  lg:px-[200px] text-centermt-10 px-[2%] pb-[50px] flex flex-col justify-evenly items-center">
-      <h1 className=" font-playfair text-4xl text-[#0E204E]  block">
+      <h2 className=" font-playfair text-4xl text-[#0E204E]  block">
         Stay in Touch
-      </h1>
+      </h2>
       <p className="my-5 font-manrope text-[#0E204E]">
         Are you curious about Pineapple Island? Send a message
       </p>

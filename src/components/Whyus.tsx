@@ -3,7 +3,7 @@ import React from "react";
 export function WhyUs() {
   return (
     <section className="  lg:text-white text-center lg:text-left font-playfair pt-20 lg:px-32 px-2 h-[500px] my-5 bg-cover lg:flex justify-evenly lg:bg-[url(/img/Rectangle.png)]">
-      <h1 className="text-4xl hidden lg:block">
+      <h2 className="text-4xl hidden lg:block">
         Why
         <br />
         Choose
@@ -11,12 +11,12 @@ export function WhyUs() {
         Pineapple
         <br />
         Island
-      </h1>
-      <h1 className="text-4xl block lg:hidden">
+      </h2>
+      <h2 className="text-4xl block lg:hidden">
         Why Choose
         <br />
         Pineapple Island
-      </h1>
+      </h2>
       <div className="lg:bg-white lg:w-3/4 h-[450px] lg:shadow-2xl lg:flex block w-full">
         <div className=" my-2 font-manrope text-[#0E204E] lg:text-black lg:w-[50%] lg:flex items-center justify-center lg:h-full lg:p-[100px]">
           <p>

@@ -15,9 +15,9 @@ export function Features() {
         <div className=" bg-[#0E204E] block w-[100px] h-[180px]" />
       </div>
       <div className="w-1/3">
-        <h1 className="text-2xl font-playfair text-center ">
+        <h2 className="text-2xl font-playfair text-center ">
           Amazing Features
-        </h1>
+        </h2>
         {Array.from({ length: 10 }, (_, index) => (
           <div
             key={index}
