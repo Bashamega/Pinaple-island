@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import Link from "next/link";
 import { Button } from "./ui/button";
+import { Photo } from "./ui/photo";
 export default function Join() {
   return (
     <section
@@ -23,14 +24,14 @@ export default function Join() {
         </Button>
       </div>
       <div className="lg:flex items-center hidden">
-        <div className=" bg-[#0E204E] block w-[100px] h-[200px]" />
-        <Image
-          src={"/img/agent.png"}
-          width={400}
-          height={0}
-          alt="Agent"
-          className="w-3/4"
-        />
+        <Photo height={200} rtl={false} content={<Image
+            src={"/img/agent.png"}
+            width={400}
+            height={0}
+            alt="Agent"
+            className="w-3/4"
+          /> }/>
+        
       </div>
     </section>
   );

@@ -9,6 +9,7 @@ import {
 } from "react-icons/fa";
 import { FiSettings } from "react-icons/fi";
 import { TbSettingsStar } from "react-icons/tb";
+import { Photo } from "./ui/photo";
 export function Offers() {
   return (
     <section className=" my-20 lg:px-[200px] mt-[500px] lg:mt-20 px-[2%]">
@@ -16,13 +17,14 @@ export function Offers() {
         What Pineapple Land Offers
       </h2>
       <div className="lg:flex items-center hidden">
-        <Image
+      <Photo content={<Image
           src={"/img/Rectangle 7.png"}
           width={200}
           height={0}
           alt="Photo"
           className="w-[270px] h-[280px]"
-        />
+        />} rtl={true} height={180}/>
+        
         <div className=" bg-[#0E204E] w-[100px] h-[180px] block" />
         <div className=" ml-[20%] flex justify-evenly w-full">
           <div className=" flex flex-col justify-center items-center">
@@ -55,13 +57,14 @@ export function Offers() {
           </div>
         </div>
         <div className=" bg-[#0E204E] w-[100px] h-[180px] block" />
-        <Image
+        
+        <Photo content={<Image
           src={"/img/Rectangle 20.png"}
           width={200}
           height={0}
           alt="Photo"
           className="w-[270px] h-[280px]"
-        />
+        />} rtl={true} height={180}/>
         
       </div>
       <div className="lg:hidden block relative">

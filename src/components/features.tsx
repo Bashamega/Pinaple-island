@@ -1,18 +1,19 @@
 import Image from "next/image";
 import React from "react";
+import { Photo } from "./ui/photo";
 
 export function Features() {
   return (
     <section className=" my-20  hidden lg:mt-20 lg:px-[200px] px-[2%] lg:flex  items-center">
       <div className="w-1/2 flex items-center">
-        <Image
+        <Photo content={<Image
           src={"/img/table.png"}
           width={300}
           height={0}
           alt="Table"
           className="w-[300px] h-[400px]"
-        ></Image>
-        <div className=" bg-[#0E204E] block w-[100px] h-[180px]" />
+        ></Image>} rtl={true} height={180}/>
+        
       </div>
       <div className="w-1/3">
         <h2 className="text-2xl font-playfair text-center ">
