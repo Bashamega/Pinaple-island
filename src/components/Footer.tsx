@@ -16,7 +16,7 @@ export function Footer() {
         </p>
         <form className="bg-white flex">
           <input type="email" placeholder="Email" className="w-3/4 p-2" />
-          <button className="text-[#0E204E] hover:bg-[#000] w-1/4 p-2  border-white hover:text-white transition-colors duration-75">
+          <button className="text-[#0E204E] hover:bg-[#000] w-1/4 flex justify-center items-center border-white hover:text-white transition-colors duration-75">
             Subscribe
           </button>
         </form>

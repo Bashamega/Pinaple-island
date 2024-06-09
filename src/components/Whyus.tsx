@@ -18,7 +18,7 @@ export function WhyUs() {
         Pineapple Island
       </h2>
       <div className="lg:bg-white lg:w-3/4 h-[450px] lg:shadow-2xl lg:flex block w-full">
-        <div className=" my-2 font-manrope text-[#0E204E] lg:text-black lg:w-[50%] lg:flex items-center justify-center lg:h-full lg:p-[100px]">
+        <div className=" my-2 font-manrope text-[#0E204E] lg:text-black lg:w-[50%] lg:flex items-center justify-center lg:h-full">
           <p>
             Pineapple Island is the most sought-after community in Ibadan that
             values and puts the needs of their clients first. It is a territory

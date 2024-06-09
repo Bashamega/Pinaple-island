@@ -33,7 +33,7 @@ export function Hero() {
           a community that gives you a taste of happiness, a place you’ll love
           to live and an opportunity to build a home.
         </p>
-        <button className="font-manrope lg:hidden text-lg bg-white rounded text-black p-2 hover:bg-slate-100 transition-colors duration-100">
+        <button className="font-manrope lg:hidden text-lg bg-white rounded text-black  w-1/3 h-[50px] hover:bg-slate-100 transition-colors duration-100">
           Get in Touch
         </button>
       </div>

@@ -22,7 +22,7 @@ export function Features() {
           <div
             key={index}
             className={
-              "p-2  w-full flex justify-evenly " +
+              " h-[40px] items-center  w-full flex justify-evenly " +
               (index % 2 !== 0 ? "" : "bg-slate-200")
             }
           >
