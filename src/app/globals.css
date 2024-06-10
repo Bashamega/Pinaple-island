@@ -74,3 +74,9 @@
       @apply bg-background text-foreground;
     }
   }
+  h1, h2, span, svg{
+    color:#0E204E
+  }
+  .svg-white *{
+    color: #fff!important;
+  }

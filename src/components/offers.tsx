@@ -25,7 +25,7 @@ export function Offers() {
           className="w-[270px] h-[280px]"
         />} rtl={true} height={180}/>
         
-        <div className=" bg-[#0E204E] w-[100px] h-[180px] block" />
+        <div className=" bg-[#0E204E] w-[100px] h-[180px] block"  />
         <div className=" ml-[20%] flex justify-evenly w-full">
           <div className=" flex flex-col justify-center items-center">
             <FaTree size={50} />
@@ -76,7 +76,7 @@ export function Offers() {
           className="w-full"
         />
         <div className="bg-[#0E204E] text-white w-[90%] absolute bottom-[-10%] p-10 left-0 mx-[5%]">
-          <div className=" grid w-full grid-cols-3 gap-2 text-center">
+          <div className=" grid w-full grid-cols-3 gap-2 text-center svg-white">
             <div className=" flex flex-col justify-center items-center">
               <FaTree size={50} />
               <span className="text-white">Eco Friendly</span>
