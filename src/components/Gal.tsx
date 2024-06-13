@@ -4,16 +4,16 @@ import React from "react";
 export function Gal() {
   return (
     <section className=" my-20   mt-20 px-[2%]">
-      <h1 className="text-2xl font-playfair text-center hidden lg:block ">
+      <h2 className="text-2xl font-playfair text-center hidden lg:block ">
         Galleries
-      </h1>
+      </h2>
       <p className=" font-manrope text-center hidden lg:block">
         a community that gives you a taste of happiness, a place you’ll love to
         live and an opportunity to build a home.
       </p>
-      <h1 className="text-2xl font-playfair text-center lg:hidden block ">
+      <h2 className="text-2xl font-playfair text-center lg:hidden block ">
         Available Homes
-      </h1>
+      </h2>
       <p className=" font-manrope text-center lg:hidden block mx-5">
         a community that gives you a taste of happiness, a place you’ll love to
         live and an opportunity to build a home.

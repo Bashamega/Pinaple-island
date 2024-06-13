@@ -2,11 +2,11 @@ import React from "react";
 import Image from "next/image";
 export function Hero() {
   return (
-    <section dir="rtl" className="flex relative mx-2">
+    <section className="flex relative mx-2">
       <Image
         src={"/img/VillaDesktop.png"}
         width={1368}
-        className=" w-[60%] hidden lg:block"
+        className=" w-[60%] hidden lg:block ml-[40%] "
         height={717}
         alt="Villa view"
       />
@@ -19,22 +19,21 @@ export function Hero() {
       />
 
       <div
-        className="  py-[20px] px-[20px] lg:w-[50%] lg:h-[70%] w-full h-full  font-playfair absolute lg:left-[10%]  lg:top-[10%] text-white top-0 left-0 lg:bg-[#0E204E] flex flex-col items-center justify-center"
-        dir="ltr"
+        className="text-center lg:text-left  py-[20px] px-[20px] lg:w-[50%] lg:h-[70%] w-full h-full  font-playfair absolute lg:left-[10%]  lg:top-[10%] text-white top-0 left-0 lg:bg-[#0E204E] lg:block flex flex-col items-center justify-center"
       >
-        <h1 className="text-4xl text-white">
+        <h2 className="text-4xl text-white">
           Pineapple Island:
           <br />
           GenZ and Millenial
           <br />
           Abode
-        </h1>
+        </h2>
         <br />
-        <p className="font-manrope text-center lg:text-left text-white">
+        <p className="font-manrope  text-white">
           a community that gives you a taste of happiness, a place you’ll love
           to live and an opportunity to build a home.
         </p>
-        <button className="font-manrope text-lg bg-white rounded text-black p-2 hover:bg-slate-100 transition-colors duration-100">
+        <button className="font-manrope lg:hidden text-lg bg-white rounded text-black  w-1/3 h-[50px] hover:bg-slate-100 transition-colors duration-100">
           Get in Touch
         </button>
       </div>

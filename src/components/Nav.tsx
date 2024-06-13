@@ -13,7 +13,7 @@ export function Nav() {
         </h1>
         <div className="lg:hidden">
           <button
-            className="navbar-burger flex items-center text-black p-3"
+            className="navbar-burger flex items-center text-black w-6  justify-center"
             onClick={() => setIsMobileMenuOpen((open) => !open)}
           >
             <svg
